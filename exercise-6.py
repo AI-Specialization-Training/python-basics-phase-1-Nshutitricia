@@ -19,3 +19,16 @@
 
 # >>>>>>>>>>>>>
 # ============================================================================
+
+def number_pattern(n):
+    result = " "
+    if not isinstance(n, int):
+        return f"n must be an integer"
+    if n < 1 :
+        return f"integer must be greater that 0"
+    
+    for i in range(1,n+1):
+        result += str(i) + " "
+    return result.strip()
+print(number_pattern("no")) 
+  

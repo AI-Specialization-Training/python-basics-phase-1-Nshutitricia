@@ -5,4 +5,6 @@
 # Note: You can use print() for debugging purposes, but what matters is
 #       what the function returns, not what it prints.
 # ============================================================================
-
+def hello():
+    return "Hello!"
+print(hello())
